@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Süeda Solak – UI/UX, mobile app and visual designer in Toronto.">
+<meta property="og:title" content="Süeda Solak – UI/UX &amp; Mobile App Designer">
+<meta property="og:description" content="Portfolio: mobile app UI, web design, brand identity and visual design.">
+<meta property="og:image" content="https://sola0062.github.io/img/ys-home.jpg">
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+</head>
+<body>
+</head><body>
+<title>Süeda Solak Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#F3F2F7; --surface:#FFFFFF; --ink:#18162B; --muted:#5E5A74; --line:#DCD9E6;
+  --accent:#5B3FE0; --accent-ink:#FFFFFF; --warm:#F2B233; --chip:#E9E6F4;
+  --display:"Bricolage Grotesque", "Hanken Grotesk", system-ui, sans-serif;
+  --body:"Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#121020; --surface:#1B1930; --ink:#EEEBF8; --muted:#A7A2C0; --line:#2E2B47;
+    --accent:#9C88FF; --accent-ink:#121020; --warm:#F2B233; --chip:#262341; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#121020; --surface:#1B1930; --ink:#EEEBF8; --muted:#A7A2C0; --line:#2E2B47;
+  --accent:#9C88FF; --accent-ink:#121020; --warm:#F2B233; --chip:#262341; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;padding-inline:clamp(16px,4vw,48px)}
+.wrap{max-width:1180px;margin-inline:auto}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;text-wrap:balance;margin:0;letter-spacing:-.015em}
+p{margin:0}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* nav */
+nav.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);margin-inline:calc(-1*clamp(16px,4vw,48px));padding:12px clamp(16px,4vw,48px)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.mark{font-family:var(--display);font-weight:800;font-size:19px;text-decoration:none;letter-spacing:-.02em}
+.mark span{color:var(--accent)}
+nav.top ul{list-style:none;display:flex;gap:clamp(12px,2.5vw,28px);margin:0;padding:0;font-size:15px;font-weight:500}
+nav.top ul a{text-decoration:none;color:var(--muted)}
+nav.top ul a:hover{color:var(--ink)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,5vw,64px);align-items:center;padding-block:clamp(40px,8vw,96px) clamp(40px,6vw,72px)}
+.hero h1{font-size:clamp(42px,6.2vw,78px);font-weight:800}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lede{margin-top:24px;font-size:clamp(17px,1.7vw,20px);color:var(--muted);max-width:34em}
+.avail{display:inline-flex;align-items:center;gap:10px;margin-bottom:22px;padding:6px 14px 6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:14px;font-weight:500}
+.avail i{width:9px;height:9px;border-radius:50%;background:#2DBE6C;box-shadow:0 0 0 4px color-mix(in srgb,#2DBE6C 22%,transparent)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;font-family:var(--body)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn:hover{transform:translateY(-1px)}
+.stack{position:relative;height:clamp(360px,44vw,520px)}
+.stack img{position:absolute;border-radius:18px;box-shadow:0 18px 40px -18px rgba(20,10,60,.45);object-fit:cover}
+.stack .s1{width:44%;left:4%;top:0;height:92%;object-position:top;border:6px solid #0b0b10}
+.stack .s2{width:66%;right:0;top:4%;aspect-ratio:1.54;background:#fff}
+.stack .s3{width:52%;right:6%;bottom:0;aspect-ratio:1.54;object-position:center}
+.tools{display:flex;flex-wrap:wrap;gap:8px 20px;padding-block:22px;border-block:1px solid var(--line);font-family:var(--mono);font-size:13px;color:var(--muted)}
+.tools b{color:var(--ink);font-weight:500}
+
+/* sections */
+section{padding-block:clamp(56px,8vw,104px) 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:36px}
+.sec-head h2{font-size:clamp(32px,4.4vw,52px);font-weight:800}
+.sec-head p{max-width:30em;color:var(--muted)}
+
+.case{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.4fr);gap:clamp(24px,4vw,56px);padding-block:40px;border-top:1px solid var(--line)}
+.case:first-of-type{border-top:0;padding-top:0}
+.case h3{font-size:clamp(28px,3.2vw,40px);font-weight:800;margin-block:10px 14px}
+.case .sum{color:var(--muted)}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;margin-top:22px;font-size:15px}
+.facts dt{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.facts dd{margin:0}
+.case ul.points{margin:20px 0 0;padding-left:18px;font-size:15.5px;display:grid;gap:6px}
+.tag{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--chip);color:var(--ink)}
+.card .tag{justify-self:start}
+.tag.real{background:var(--warm);color:#231a00}
+.media{display:grid;gap:14px;align-content:start}
+.media img,.grid img{width:100%;display:block;border-radius:14px;cursor:zoom-in;background:var(--surface)}
+.frame-dark{background:#0d0d12;border-radius:18px;padding:clamp(12px,2vw,22px)}
+.frame-dark img{border-radius:8px}
+.phones{display:flex;gap:14px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory}
+.phones figure{margin:0;flex:0 0 150px;scroll-snap-align:start}
+.phones img{border-radius:12px;height:300px;object-fit:cover;object-position:top;border:3px solid #0b0b10;cursor:zoom-in;width:100%;display:block}
+.phones figcaption{font-size:12.5px;color:var(--muted);margin-top:6px;font-family:var(--mono)}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(10px,1.6vw,18px)}
+.trio img{aspect-ratio:9/17;object-fit:cover;object-position:top;border-radius:14px;cursor:zoom-in;width:100%;display:block}
+.phones.fit{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible}
+.phones.fit img{height:auto;aspect-ratio:9/17}
+dialog{overflow:auto}
+dialog img.tall{max-height:none;width:min(430px,90vw)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+/* client + visual grid */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:14px}
+.card .meta{padding:2px 6px 6px;display:grid;gap:4px}
+.card h4{margin:0;font-family:var(--display);font-size:21px;font-weight:600;letter-spacing:-.01em}
+.card p{font-size:14.5px;color:var(--muted)}
+.card img{border-radius:10px}
+.c6{grid-column:span 6}.c4{grid-column:span 4}.c8{grid-column:span 8}.c12{grid-column:span 12}.c5{grid-column:span 5}.c7{grid-column:span 7}
+.card .imgs{display:grid;gap:10px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.filters button{font-family:var(--mono);font-size:12.5px;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.vis{columns:3 300px;column-gap:18px}
+.vis figure{break-inside:avoid;margin:0 0 18px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px}
+.vis img{width:100%;display:block;border-radius:9px;cursor:zoom-in}
+.vis figcaption{display:flex;justify-content:space-between;gap:10px;padding:10px 6px 4px;font-size:14.5px;font-weight:500}
+.vis figcaption span{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;padding-top:2px}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px)}
+.about .intro{font-size:clamp(20px,2.2vw,26px);line-height:1.45;font-family:var(--display);font-weight:400;letter-spacing:-.01em}
+.tl{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.tl li{display:grid;grid-template-columns:150px 1fr;gap:16px;padding-block:16px;border-top:1px solid var(--line)}
+.tl .when{font-family:var(--mono);font-size:13px;color:var(--muted);padding-top:3px;font-variant-numeric:tabular-nums}
+.tl b{display:block;font-weight:600}
+.tl span{color:var(--muted);font-size:15px}
+.sub{margin:40px 0 8px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:40px}
+.skills div{border-top:2px solid var(--ink);padding-top:12px}
+.skills h4{margin:0 0 8px;font-size:15px;font-weight:600}
+.skills p{font-size:15px;color:var(--muted)}
+
+/* contact */
+.contact{margin-block:clamp(56px,8vw,104px) 0;background:var(--ink);color:var(--paper);border-radius:28px;padding:clamp(28px,6vw,72px);display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:end}
+.contact h2{font-size:clamp(36px,5.6vw,68px);font-weight:800}
+.contact p{color:color-mix(in srgb,var(--paper) 72%,transparent);margin-top:16px;max-width:28em}
+.clist{display:grid;gap:12px}
+.crow{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border:1px solid color-mix(in srgb,var(--paper) 22%,transparent);border-radius:12px;flex-wrap:wrap}
+.crow .label{color:color-mix(in srgb,var(--paper) 60%,transparent)}
+.crow .v{font-weight:600;user-select:all;word-break:break-all}
+.crow button,.crow a.go{font-family:var(--mono);font-size:12px;background:var(--paper);color:var(--ink);border:0;border-radius:8px;padding:6px 10px;cursor:pointer;text-decoration:none}
+footer{padding-block:32px 40px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+/* lightbox */
+dialog{border:0;padding:0;background:transparent;max-width:min(96vw,1500px);max-height:94vh}
+dialog::backdrop{background:rgba(10,8,20,.86)}
+dialog img{max-width:100%;max-height:88vh;display:block;border-radius:10px;margin-inline:auto}
+dialog p{color:#fff;text-align:center;margin-top:10px;font-size:14px}
+dialog button{position:fixed;top:16px;right:16px;background:#fff;color:#111;border:0;border-radius:999px;width:40px;height:40px;font-size:20px;cursor:pointer}
+
+@media (max-width:900px){
+  .hero,.case,.about,.contact{grid-template-columns:1fr}
+  .stack{height:clamp(300px,80vw,440px)}
+  .c6,.c4,.c8,.c5,.c7{grid-column:span 12}
+}
+@media (max-width:560px){
+  nav.top ul{gap:14px;font-size:14px}
+  .tl li{grid-template-columns:1fr;gap:2px}
+  .two{grid-template-columns:1fr}
+  .phones figure{flex-basis:140px}.phones img{height:280px}
+  .trio{display:none}
+  .phones.fit{display:flex;overflow-x:auto}.phones.fit figure{flex:0 0 150px}.phones.fit img{height:300px;aspect-ratio:auto}
+}
+</style>
+
+<nav class="top"><div class="wrap">
+  <a class="mark" href="#top">Süeda Solak<span>.</span></a>
+  <ul>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#visual">Visual</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div></nav>
+
+<main class="wrap" id="top">
+  <header class="hero">
+    <div>
+      <div class="avail"><i></i>Open to jobs, co-op &amp; internships · Toronto, ON</div>
+      <h1>UI/UX &amp; mobile app designer with a <em>visual design</em> background.</h1>
+      <p class="lede">I'm a Mobile Application Design &amp; Development student at Algonquin College. Before that I studied visual design at HTK Hamburg, and I've designed logos, a product catalogue and business cards for real brands.</p>
+      <div class="cta">
+        <a class="btn primary" href="#work">See selected work ↓</a>
+        <a class="btn" href="https://github.com/sola0062" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn" href="Sueda_Solak_Portfolio_2026.pdf" download>Download PDF</a>
+      </div>
+    </div>
+    <div class="stack" aria-hidden="true">
+      <img class="s2" src="img/ys-home.jpg" alt="">
+      <img class="s3" src="img/p39.jpg" alt="" style="object-fit:contain;padding:10px">
+      <img class="s1" src="img/glow-home.jpg" alt="">
+    </div>
+  </header>
+
+  <div class="tools">
+    <span><b>Figma</b> · UI, prototyping</span>
+    <span><b>Illustrator · Photoshop · InDesign</b></span>
+    <span><b>Procreate · Canva</b></span>
+    <span><b>HTML · CSS · JavaScript</b> (beginner)</span>
+    <span><b>Languages</b> EN · DE · TR</span>
+  </div>
+
+  <!-- ================= WORK ================= -->
+  <section id="work">
+    <div class="sec-head">
+      <h2>Selected UI work</h2>
+      <p>App and web interfaces designed in Figma for the Mobile Application Design &amp; Development program at Algonquin College.</p>
+    </div>
+
+    <article class="case">
+      <div>
+        <span class="tag">Final project · Mobile app</span>
+        <h3>Glow-Up</h3>
+        <p class="sum">A fitness and nutrition app for university students. It brings workouts, meal logging and progress tracking into one dark, focused interface built around progress rings and a four-tab navigation: Home, Train, Fuel and Glow.</p>
+        <dl class="facts">
+          <dt>Role</dt><dd>Solo designer: research, flows, UI, prototype</dd>
+          <dt>Tools</dt><dd>Figma, AI-assisted design (a requirement of the brief)</dd>
+          <dt>Scope</dt><dd>9 connected mobile screens</dd>
+        </dl>
+        <ul class="points">
+          <li>Designed onboarding: splash screen and a university-email login.</li>
+          <li>Built a home dashboard with daily goal progress, streaks and remaining calories.</li>
+          <li>Designed a workout library, a live workout timer, and a routine builder.</li>
+          <li>Added meal logging with macro balance, plus a profile with milestones and a consistency heatmap.</li>
+          <li>Kept one type scale, one cyan accent and one card style across every screen.</li>
+        </ul>
+      </div>
+      <div class="media">
+        <div class="frame-dark trio">
+          <img src="img/glow-home.jpg" alt="Glow-Up home dashboard" data-cap="Glow-Up: Home dashboard (scroll to see the full screen)">
+          <img src="img/glow-workout.jpg" alt="Glow-Up workouts and live timer" data-cap="Glow-Up: Workouts &amp; live timer">
+          <img src="img/glow-profile.jpg" alt="Glow-Up profile and progress" data-cap="Glow-Up: Profile &amp; progress">
+        </div>
+        <div class="phones" aria-label="Glow-Up screens">
+          <figure><img src="img/glow-splash.jpg" alt="Splash screen" data-cap="Splash"><figcaption>Splash</figcaption></figure>
+          <figure><img src="img/glow-login.jpg" alt="Login screen" data-cap="Login"><figcaption>Login</figcaption></figure>
+          <figure><img src="img/glow-home.jpg" alt="Home dashboard" data-cap="Home dashboard"><figcaption>Home</figcaption></figure>
+          <figure><img src="img/glow-workout.jpg" alt="Workout library and timer" data-cap="Workouts &amp; live timer"><figcaption>Train</figcaption></figure>
+          <figure><img src="img/glow-edit.jpg" alt="Routine builder" data-cap="Routine builder"><figcaption>Routine builder</figcaption></figure>
+          <figure><img src="img/glow-meal.jpg" alt="Log meal" data-cap="Log meal"><figcaption>Log meal</figcaption></figure>
+          <figure><img src="img/glow-profile.jpg" alt="Profile" data-cap="Profile &amp; progress"><figcaption>Profile</figcaption></figure>
+          <figure><img src="img/glow-complete.jpg" alt="Workout summary" data-cap="Session complete"><figcaption>Summary</figcaption></figure>
+          <figure><img src="img/glow-settings.jpg" alt="Settings" data-cap="Settings"><figcaption>Settings</figcaption></figure>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div>
+        <span class="tag">School project · Website</span>
+        <h3>YellowSapphire</h3>
+        <p class="sum">A website for a fictional AI consulting firm. The design has a deep violet base with gold for calls to action, a dashboard visual in the hero, and a French/English language switch for a Canadian audience.</p>
+        <dl class="facts">
+          <dt>Role</dt><dd>Web UI design and clickable prototype</dd>
+          <dt>Tools</dt><dd>Figma</dd>
+          <dt>Pages</dt><dd>Home, Services, Contact</dd>
+        </dl>
+        <ul class="points">
+          <li>Hero with a clear value line and one primary call to action.</li>
+          <li>Services shown as three scannable cards, each ending in "Book a free call".</li>
+          <li>Short contact form placed next to supporting imagery.</li>
+        </ul>
+      </div>
+      <div class="media">
+        <img src="img/ys-home.jpg" alt="YellowSapphire home page" data-cap="YellowSapphire: Home">
+        <div class="two">
+          <img src="img/ys-services.jpg" alt="YellowSapphire services page" data-cap="YellowSapphire: Services">
+          <img src="img/ys-contact.jpg" alt="YellowSapphire contact page" data-cap="YellowSapphire: Contact">
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div>
+        <span class="tag">Midterm · Mobile app</span>
+        <h3>Streaming app concept</h3>
+        <p class="sum">A mobile app for finding movies and series. It has a featured title, a "Top 10 this week" list, a detail page, favourites, and an actor search presented as a card grid.</p>
+        <dl class="facts">
+          <dt>Course</dt><dd>MAD9020, Algonquin College</dd>
+          <dt>Tools</dt><dd>Figma, reusable components</dd>
+          <dt>Scope</dt><dd>4 mobile screens + bottom navigation</dd>
+        </dl>
+      </div>
+      <div class="media">
+        <div class="phones fit" aria-label="Streaming app screens">
+          <figure><img src="img/stream-1.jpg" alt="Streaming app home" data-cap="Streaming app: Home"><figcaption>Home</figcaption></figure>
+          <figure><img src="img/stream-2.jpg" alt="Title detail" data-cap="Streaming app: Title detail"><figcaption>Detail</figcaption></figure>
+          <figure><img src="img/stream-3.jpg" alt="Favourites" data-cap="Streaming app: Favourites"><figcaption>Favourites</figcaption></figure>
+          <figure><img src="img/stream-4.jpg" alt="Actor search" data-cap="Streaming app: Actors"><figcaption>Actors</figcaption></figure>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ================= CLIENTS ================= -->
+  <section id="clients">
+    <div class="sec-head">
+      <h2>Client work</h2>
+      <p>Real projects for real businesses: brand identity and print.</p>
+    </div>
+    <div class="grid">
+      <div class="card c6">
+        <img src="img/p35.jpg" alt="Cotokids logo and brand elements" data-cap="Cotokids: logo, colours and applications">
+        <div class="meta"><span class="tag real">Client · Brand identity</span><h4>Cotokids logo</h4><p>A logo, brand colours and applications for an organic children's clothing brand.</p></div>
+      </div>
+      <div class="card c6">
+        <img src="img/p36.jpg" alt="Cotokids product catalogue spreads" data-cap="Cotokids: product catalogue">
+        <div class="meta"><span class="tag real">Client · Print</span><h4>Cotokids catalogue</h4><p>A product catalogue layout with illustrated accents and a clear product grid.</p></div>
+      </div>
+      <div class="card c7">
+        <img src="img/p38.jpg" alt="Mathias Chanell logo and website" data-cap="Mathias Chanell: logo">
+        <div class="meta"><span class="tag real">Client · Logo</span><h4>Mathias Chanell, coach</h4><p>A logo for a coaching business, shown on the website. Made in collaboration with Münire Dönmez.</p></div>
+      </div>
+      <div class="card c5">
+        <img src="img/p39.jpg" alt="Aqua Cleaning logo and business card" data-cap="Aqua Cleaning Services: logo &amp; business card">
+        <div class="meta"><span class="tag real">Client · Logo &amp; print</span><h4>Aqua Cleaning Services</h4><p>A logo and business card for a cleaning company in Canada.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VISUAL ================= -->
+  <section id="visual">
+    <div class="sec-head">
+      <h2>Visual design</h2>
+      <p>Coursework from HTK Hamburg (Technische Kunstschule): illustration, typography, editorial, advertising and photography.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter visual work">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="ill" aria-pressed="false">Illustration</button>
+      <button type="button" data-f="typo" aria-pressed="false">Typography &amp; editorial</button>
+      <button type="button" data-f="ad" aria-pressed="false">Advertising &amp; packaging</button>
+      <button type="button" data-f="photo" aria-pressed="false">Photography</button>
+    </div>
+    <div class="vis">
+      <figure data-k="ill"><img src="img/p14.jpg" alt="Elephant line illustrations" data-cap="Line illustration series: elephant"><figcaption>Line illustration series<span>Illustrator</span></figcaption></figure>
+      <figure data-k="typo"><img src="img/p31.jpg" alt="Travel magazine spread" data-cap="Voyage Bliss travel magazine"><figcaption>Voyage Bliss travel magazine<span>InDesign</span></figcaption></figure>
+      <figure data-k="ad"><img src="img/p24.jpg" alt="Metallic padlock ad" data-cap="METALLIC: print ad series"><figcaption>METALLIC ad series<span>Advertising</span></figcaption></figure>
+      <figure data-k="ill"><img src="img/p19.jpg" alt="Polygon illustrations" data-cap="Polygon illustrations"><figcaption>Polygon illustrations<span>Digital</span></figcaption></figure>
+      <figure data-k="ill"><img src="img/p17.jpg" alt="Mixed media poster" data-cap="Mixed media poster: Never Hide"><figcaption>Mixed media poster<span>Photoshop</span></figcaption></figure>
+      <figure data-k="typo"><img src="img/p28.jpg" alt="Type lookbook" data-cap="Type lookbook: contrasts"><figcaption>Type lookbook<span>Typography</span></figcaption></figure>
+      <figure data-k="ad"><img src="img/p27.jpg" alt="Sunscreen packaging" data-cap="Packaging: sun cream and after-sun"><figcaption>Sun care packaging<span>Packaging</span></figcaption></figure>
+      <figure data-k="ad"><img src="img/p21.jpg" alt="Campaign caseboards" data-cap="Campaign concept caseboards (student work)"><figcaption>Campaign caseboards<span>Concepting</span></figcaption></figure>
+      <figure data-k="typo"><img src="img/p22.jpg" alt="Typography postcards" data-cap="Type specimen postcards"><figcaption>Type specimen postcards<span>Typography</span></figcaption></figure>
+      <figure data-k="ill"><img src="img/p8.jpg" alt="Chameleon T-shirt illustration" data-cap="T-shirt illustration: Love me with all of my colors"><figcaption>T-shirt illustration<span>Illustrator</span></figcaption></figure>
+      <figure data-k="ill"><img src="img/p15.jpg" alt="Cat line illustrations" data-cap="Line illustration series: cat"><figcaption>Line illustration: colour study<span>Illustrator</span></figcaption></figure>
+      <figure data-k="typo"><img src="img/p5.jpg" alt="Calligraphy studies" data-cap="Calligraphy studies"><figcaption>Calligraphy<span>Ink</span></figcaption></figure>
+      <figure data-k="photo"><img src="img/p9.jpg" alt="Portrait photography" data-cap="Portrait photography"><figcaption>Portrait<span>Photography</span></figcaption></figure>
+      <figure data-k="photo"><img src="img/p12.jpg" alt="Architecture photography" data-cap="Architecture photography"><figcaption>Architecture<span>Photography</span></figcaption></figure>
+      <figure data-k="photo"><img src="img/p11.jpg" alt="Product photography" data-cap="Product photography"><figcaption>Product lighting<span>Photography</span></figcaption></figure>
+      <figure data-k="typo"><img src="img/p33.jpg" alt="Travel magazine spread" data-cap="Voyage Bliss travel magazine"><figcaption>Voyage Bliss, spreads<span>InDesign</span></figcaption></figure>
+      <figure data-k="ill"><img src="img/p16.jpg" alt="Ram line illustrations" data-cap="Line illustration series: ram"><figcaption>Line illustration: ram<span>Illustrator</span></figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="sec-head"><h2>About</h2></div>
+    <div class="about">
+      <div>
+        <p class="intro">I went to school in Vienna, Frankfurt and Hamburg, and I now study in Ottawa. I started with drawing and visual communication, and now I apply that to apps and websites. I care about clear layouts, consistent systems and screens that feel good to use.</p>
+        <div class="skills">
+          <div><h4>UI/UX</h4><p>Wireframing, user flows, mobile layouts, clickable prototypes, components in Figma</p></div>
+          <div><h4>Visual</h4><p>Illustration, logo &amp; brand identity, editorial layout, photography</p></div>
+          <div><h4>Code</h4><p>HTML, CSS, JavaScript (beginner), learning in the MADD program</p></div>
+          <div><h4>Languages</h4><p>Turkish &amp; German (native), English (C1), Spanish (A1)</p></div>
+        </div>
+      </div>
+      <div>
+        <p class="label">Experience</p>
+        <ul class="tl">
+          <li><span class="when">2021 – present</span><div><b>Working Student, Symboltextil GmbH</b><span>Product photoshoots, marketing visuals, digital assets, order processing</span></div></li>
+          <li><span class="when">2023 – 2025</span><div><b>Sales Assistant, Walkiddy Outlet</b><span>Visual merchandising, customer support</span></div></li>
+          <li><span class="when">Jun – Jul 2022</span><div><b>Intern, International Relations, Symboltextil GmbH</b><span>Communication with international partners, order coordination</span></div></li>
+        </ul>
+        <p class="label sub">Education</p>
+        <ul class="tl">
+          <li><span class="when">2025 – present</span><div><b>Algonquin College, Ottawa</b><span>Mobile Application Design &amp; Development (MADD)</span></div></li>
+          <li><span class="when">2023 – 2024</span><div><b>HTK Hamburg, Technische Kunstschule</b><span>Visual Design Studies</span></div></li>
+          <li><span class="when">2016 – 2022</span><div><b>Alsterring Gymnasium, Hamburg</b><span>High School Diploma</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <div>
+      <h2>Let's work together.</h2>
+      <p>I'm looking for junior, co-op and internship roles in UI/UX, mobile, web or visual design, in Toronto or remote.</p>
+    </div>
+    <div class="clist">
+      <div class="crow"><div><div class="label">Email</div><div class="v" id="em"><a href="mailto:acssolak@gmail.com" style="text-decoration:none">acssolak@gmail.com</a></div></div><button type="button" data-copy="em">Copy</button></div>
+      <div class="crow"><div><div class="label">Phone</div><div class="v" id="ph">+1 437 566 9899</div></div><button type="button" data-copy="ph">Copy</button></div>
+      <div class="crow"><div><div class="label">Portfolio PDF</div><div class="v">Sueda_Solak_Portfolio_2026.pdf</div></div><a class="go" href="Sueda_Solak_Portfolio_2026.pdf" download>Download</a></div>
+      <div class="crow"><div><div class="label">GitHub</div><div class="v">github.com/sola0062</div></div><a class="go" href="https://github.com/sola0062" target="_blank" rel="noopener">Open ↗</a></div>
+    </div>
+  </section>
+
+  <footer><span>© 2026 Süeda Solak · Toronto, ON</span><span>acssolak@gmail.com</span></footer>
+</main>
+
+<dialog id="lb" aria-label="Image preview"><button type="button" id="lbx" aria-label="Close">×</button><img id="lbi" alt=""><p id="lbc"></p></dialog>
+
+<script>
+(function(){
+  var lb=document.getElementById('lb'),li=document.getElementById('lbi'),lc=document.getElementById('lbc');
+  document.querySelectorAll('main img[data-cap]').forEach(function(im){
+    im.addEventListener('click',function(){li.src=im.src;li.alt=im.alt;li.className=(im.naturalHeight>im.naturalWidth*1.6)?'tall':'';lc.textContent=im.dataset.cap;try{lb.showModal()}catch(e){}});
+  });
+  document.getElementById('lbx').onclick=function(){lb.close()};
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+  document.querySelectorAll('.filters button').forEach(function(b){
+    b.addEventListener('click',function(){
+      document.querySelectorAll('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+      var f=b.dataset.f;
+      document.querySelectorAll('.vis figure').forEach(function(fg){fg.hidden=!(f==='all'||fg.dataset.k===f)});
+    });
+  });
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var el=document.getElementById(b.dataset.copy),t=el.textContent;
+      function sel(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected'}
+      try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied'},sel)}catch(e){sel()}
+      setTimeout(function(){b.textContent='Copy'},1800);
+    });
+  });
+})();
+</script>
+
+</body></html>
+</body>
+</html>
